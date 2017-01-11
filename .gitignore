@@ -1,0 +1,5 @@
+/node_modules
+/www/public/bower_components
+/vendor/
+/.idea
+tests/_output/*

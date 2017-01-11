@@ -1,0 +1,22 @@
+{
+  "name": "donmonkey777/tree",
+  "description": "A tree crud",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "robmorgan/phinx": "^0.6.5",
+    "codeception/codeception": "^2.2",
+    "fzaninotto/Faker": "^1.6"
+  },
+  "autoload": {
+    "classmap": [
+      "tests/",
+      "db/migrations",
+      "db/seeds"
+    ],
+    "psr-4": {
+      "Donmonkey777\\": "src"
+    }
+  }
+}
